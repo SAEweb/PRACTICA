@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PRACTICA.view.login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenid@"
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Image Source="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/10/19/16977144313170.jpg"/>
+            <Label Text="Ingrese sus datos"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontSize="Small"/>
+            <Entry Placeholder="Dni" PlaceholderColor="Gray"/>
+            <Entry Placeholder="Contraseña" PlaceholderColor="Gray"/>
+            <Button x:Name="Ingresar" Text="Ingresar" CornerRadius="30" BackgroundColor="PaleGreen" Clicked="Ingresar_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

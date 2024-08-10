@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PRACTICA.view.inicio">
+    <ContentPage.Content>
+        <Grid ColumnDefinitions="*,*" RowDefinitions="*,*">
+            <Button Grid.Column="0" Grid.Row="1" Text="reserva"/>
+            <Button Grid.Column="1" Grid.Row="0" Text="grass"/>
+            <Image Source="https://integralspor.com/assets/filemanager/ad54c7c7254aaa80c750954657737cae.jpg" Grid.Column="0" Grid.Row="1"/>
+            <Image Source="https://www.sportmastersperu.com/images/sintetico/fut12.jpg" Grid.Column="1" Grid.Row="0"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
